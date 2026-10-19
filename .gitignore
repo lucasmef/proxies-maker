@@ -1,0 +1,30 @@
+# Arquivos locais e credenciais
+.DS_Store
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.aws/
+.codex/
+.agents/
+# Dependências e builds
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.app/
+bin/
+# Mídia pessoal e resultados de execução
+samples/
+*.mp4
+*.mov
+*.MOV
+*.m4v
+*.jpg
+*.jpeg
+*.png
+*.log
+*.lock
+accelerated/benchmark-idle/
+accelerated/*.json
